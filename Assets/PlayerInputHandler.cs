@@ -4,21 +4,28 @@ using UnityEngine;
 
 public class PlayerInputHandler : MonoBehaviour
 {
-    float speed = 8; // tiles per second
+    float speed = 6; // tiles per second
+
+    public Vector2 facingDirection;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        facingDirection = new Vector2(1, 0);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) {
-            GetComponent<Health>().decreaseHealth(10);
+        Vector2 direction = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+
+        if (direction != Vector2.zero) {
+            transform.Translate(direction * speed * Time.deltaTime);
+            facingDirection = direction.normalized;
         }
 
-        transform.Translate(new Vector2(Input.GetAxis("Horizontal") * speed * Time.deltaTime, Input.GetAxis("Vertical") * speed * Time.deltaTime));
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            Debug.Log(facingDirection);
+        }
     }
 }

@@ -7,7 +7,6 @@ public class Health : MonoBehaviour
 {
     int health;
     public int maxHealth;
-
     public HealthBar healthBar;
 
     // Start is called before the first frame update
@@ -26,15 +25,34 @@ public class Health : MonoBehaviour
         return health == 0;
     }
 
+    public void onDeath() {
+        switch (gameObject.tag) {
+            case "Player":
+                Debug.Log("Game over!");
+                break;
+            case "Enemy":
+                Destroy(gameObject);
+                break;
+        }
+    }
+
     public void decreaseHealth(int value) {
         health = Math.Max(0, health - value);
 
-        healthBar.setHealth(health);
+        if (healthBar) {
+            healthBar.setHealth(health);
+        }
+
+        if (isDead()) {
+            onDeath();
+        }
     }
 
     public void increaseHealth(int value) {
         health = Math.Min(maxHealth, health + value);
         
-        healthBar.setHealth(health);
+        if (healthBar) {
+            healthBar.setHealth(health);
+        }
     }
 }
