@@ -1,0 +1,55 @@
+Theme: Deeper and Deeper
+
+Ideas:
+#1 Stardew Valley Mines / 2D Zelda Dungeon Copy
+- Top-Down 2D
+- Levels, where you start from outside and move further inside (possibly through maze like structure / or like a spiral)
+- Entry into new level in the middle, which opens new level and repeat
+	- Try camera effect, where it zooms into the level trigger and then opens new level as if you entered / jumped/ climbed down ?
+- Play around with lighting effects, make light darker every level, add smaller light sources (torches etc.) and eventually small permanent/temporary lighting items (flashlight etc.)
+- Boulders / collision items in levels (maybe movable?)
+- Water puddles, Waterfall, little unwalkable pond
+- mining equipment, aesthetic
+- Enemies: Slimes, Bats, Rats etc.
+- Build mechanics around light?
+	- Enemies that mess with the light sources (flickering, turning off temporarily)
+	- Enemies that are only visible in certain lighting conditions (or for example only if lighting is off!)
+		- Turn off light, so you can see the enemy, but now you can't see the environment anymore etc.
+
+
+#2
+- Snake like game, where you move through a spiral/maze from the outside to the inside
+- Forced constant movement like snake
+- Enemies/collisions in the way
+- Shoot tongue/fire from head to kill enemies
+- pickups on the ground, giving health, protection, attack powerups
+- Snake / Aztec theme for everything?
+
+#3
+- Side-view plattformer, where you start at top and keep dropping further down
+
+#4
+- Water theme? where you keep diving further down
+
+=====
+
+
+Core mechanics, that are most necessary for working / somewhat playable game
+- Movable player character (use physics for movement? or just transform.Translate)
+- Dont allow moving through objects with colliders (walls, boulders, enemies etc.)
+- Movable enemies
+	- Enemy that is the only light source in a level, and gets darker the less it has, therefore making the fight more difficult over time? (Could be a (mini-)boss?)
+- Take dmg when hit by enemies
+- Ability to dmg/attack enemies
+	- Ranged attacks, fireball? gives off light too, which could have cool interactions!
+	- Hit marker / feedback
+- Lighting, reduce lighting intensity on every new level
+- UI: Health bar
+
+Would be very good to have:
+- Simple animations for player / enemies
+- Different sprite depending on equipped items
+
+Nice to have for later:
+- Traps that dmg you/mess with you in some way (turn light off, remove item etc.)
+- Health bar shown as a candle/light that becomes dimmer and dimmer the less health you have
