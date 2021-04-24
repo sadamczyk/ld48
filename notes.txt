@@ -33,23 +33,33 @@ Ideas:
 
 =====
 
+ToDos:
 
 Core mechanics, that are most necessary for working / somewhat playable game
-- Movable player character (use physics for movement? or just transform.Translate)
-- Dont allow moving through objects with colliders (walls, boulders, enemies etc.)
-- Movable enemies
-	- Enemy that is the only light source in a level, and gets darker the less it has, therefore making the fight more difficult over time? (Could be a (mini-)boss?)
-- Take dmg when hit by enemies
-- Ability to dmg/attack enemies
-	- Ranged attacks, fireball? gives off light too, which could have cool interactions!
-	- Hit marker / feedback
+- Change level when entering newLevelTrigger
+	-> How do i make multiple levels? New scene for every one?
 - Lighting, reduce lighting intensity on every new level
-- UI: Health bar
+- Basic music / SFX (credits!)
+- Make 10 different levels, mini boss at 5, big boss at level 10
+- Find suitable assets for everything (don't forget to write down credits if necessary!)
+- movement of enemies / different types/colors; stupid with set movement; smart, will move towards player
 
 Would be very good to have:
+- only activate/open goal on trigger? button or when all enemies dead?
+- Camera that follows player smoothly
+- invincibility frame after player takes dmg (+ blinking/flashing animation)
 - Simple animations for player / enemies
-- Different sprite depending on equipped items
+- Hit marker for projectiles
+- Health/item pickups/powerups
+- Reduce bouncing on collision (might just depend on the used colliders / shapes?)
 
 Nice to have for later:
+- Enemy ideas:
+	- Enemy that is the only light source in a level, and gets darker the less it has, therefore making the fight more difficult over time? (Could be a (mini-)boss?)	
+- points/gold, including pickups/treasures etc.?
+- Different sprite depending on equipped items
 - Traps that dmg you/mess with you in some way (turn light off, remove item etc.)
 - Health bar shown as a candle/light that becomes dimmer and dimmer the less health you have
+
+
+
