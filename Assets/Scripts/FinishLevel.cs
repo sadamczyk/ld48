@@ -6,7 +6,11 @@ using UnityEngine.SceneManagement;
 public class FinishLevel : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other) {
-        Debug.Log("You win!");
-        SceneManager.LoadScene("Level2");
+        if (other.CompareTag("Player")) {
+            // Persist player data
+            GlobalControl.Instance.health = other.GetComponent<Health>().health; // Check other instead of searching by tag?
+
+            SceneManager.LoadScene("Level2");
+        }
     }
 }

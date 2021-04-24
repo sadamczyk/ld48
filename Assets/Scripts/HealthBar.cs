@@ -14,7 +14,7 @@ public class HealthBar : MonoBehaviour
         playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<Health>();
         healthbar = GetComponent<Slider>();
         healthbar.maxValue = playerHealth.maxHealth;
-        healthbar.value = playerHealth.maxHealth;
+        healthbar.value = playerHealth.health;
     }
 
     // Update is called once per frame

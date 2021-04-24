@@ -5,35 +5,19 @@ using System;
 
 public class Health : MonoBehaviour
 {
-    int health;
+    public int health;
     public int maxHealth;
     public HealthBar healthBar;
+    public GameObject gameOverText;
 
     // Start is called before the first frame update
     void Start()
     {
-        health = maxHealth;    
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        health = maxHealth;
     }
 
     public bool isDead() {
         return health == 0;
-    }
-
-    public void onDeath() {
-        switch (gameObject.tag) {
-            case "Player":
-                Debug.Log("Game over!");
-                break;
-            case "Enemy":
-                Destroy(gameObject);
-                break;
-        }
     }
 
     public void decreaseHealth(int value) {
@@ -53,6 +37,19 @@ public class Health : MonoBehaviour
         
         if (healthBar) {
             healthBar.setHealth(health);
+        }
+    }
+
+    public void onDeath() {
+        switch (gameObject.tag) {
+            case "Player":
+                gameOverText.SetActive(true);
+
+                // ToDo Add Game over scene with "Replay" Button?
+                break;
+            case "Enemy":
+                Destroy(gameObject);
+                break;
         }
     }
 }

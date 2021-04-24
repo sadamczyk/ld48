@@ -36,13 +36,12 @@ Ideas:
 ToDos:
 
 Core mechanics, that are most necessary for working / somewhat playable game
-- Change level when entering newLevelTrigger
-	-> How do i make multiple levels? New scene for every one?
+- Gameover replay? Scene
 - Lighting, reduce lighting intensity on every new level
 - Basic music / SFX (credits!)
-- Make 10 different levels, mini boss at 5, big boss at level 10
 - Find suitable assets for everything (don't forget to write down credits if necessary!)
 - movement of enemies / different types/colors; stupid with set movement; smart, will move towards player
+- Make 10 different levels, mini boss at 5, big boss at level 10
 
 Would be very good to have:
 - only activate/open goal on trigger? button or when all enemies dead?

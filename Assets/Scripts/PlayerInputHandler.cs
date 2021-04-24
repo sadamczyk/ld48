@@ -12,6 +12,9 @@ public class PlayerInputHandler : MonoBehaviour
     void Start()
     {
         facingDirection = new Vector2(1, 0);
+
+        // Load persisted data from GlobalObject
+        GetComponent<Health>().health = GlobalControl.Instance.health;        
     }
 
     // Update is called once per frame
@@ -23,9 +26,7 @@ public class PlayerInputHandler : MonoBehaviour
             transform.Translate(direction * speed * Time.deltaTime);
             facingDirection = direction.normalized;
         }
-
-        if (Input.GetKeyDown(KeyCode.Space)) {
-            Debug.Log(facingDirection);
-        }
     }
+
+
 }
