@@ -45,7 +45,7 @@ Would be very good to have:
 - only activate/open goal on trigger? button or when all enemies dead?
 - Camera that follows player smoothly
 - invincibility frame after player takes dmg (+ blinking/flashing animation)
-- Simple animations for player / enemies
+- Simple animations for player / enemies -> https://www.youtube.com/watch?v=txtNjkSqOyw
 - Hit marker for projectiles
 - Health/item pickups/powerups
 - Lighting, reduce lighting intensity on every new level; experiment with different light sources etc. -> https://www.youtube.com/watch?v=nkgGyO9VG54
@@ -54,6 +54,7 @@ Would be very good to have:
 - Try nicer font from Kenneys Pack for Texts, because Arial looks pretty garbage, or use C:\Users\seba1\Downloads\Assets\Kenney Game Assets (version 41)\2D assets\Tappy Plane\PNG\Letters
 
 Nice to have for later:
+- Pause screen etc. -> https://leetdev.io/unity-vr-development/day-22-creating-game-end-state-game-animation
 - Enemy ideas:
 	- Enemy that is the only light source in a level, and gets darker the less it has, therefore making the fight more difficult over time? (Could be a (mini-)boss?)	
 - points/gold, including pickups/treasures etc.?
