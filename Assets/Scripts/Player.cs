@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerInputHandler : MonoBehaviour
+public class Player : MonoBehaviour
 {
     float speed = 6; // tiles per second
 
@@ -14,7 +14,7 @@ public class PlayerInputHandler : MonoBehaviour
         facingDirection = new Vector2(1, 0);
 
         // Load persisted data from GlobalObject
-        GetComponent<Health>().health = GlobalControl.Instance.health;        
+        loadGlobalPlayerData();
     }
 
     // Update is called once per frame
@@ -28,5 +28,7 @@ public class PlayerInputHandler : MonoBehaviour
         }
     }
 
-
+    public void loadGlobalPlayerData() {
+        GetComponent<Health>().health = GlobalControl.Instance.health;
+    }
 }

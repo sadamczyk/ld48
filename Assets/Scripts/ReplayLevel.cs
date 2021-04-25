@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class ReplayLevel : MonoBehaviour
 {
     public void replayLevel() {
-        Debug.Log("REPLAY LEVEL!");
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().loadGlobalPlayerData(); // Reload global data
     }
 }
