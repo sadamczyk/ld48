@@ -8,7 +8,6 @@ public class Health : MonoBehaviour
     public int health;
     public int maxHealth;
     public HealthBar healthBar;
-    public GameObject gameOverText;
 
     // Start is called before the first frame update
     void Start()
@@ -43,9 +42,7 @@ public class Health : MonoBehaviour
     public void onDeath() {
         switch (gameObject.tag) {
             case "Player":
-                gameOverText.SetActive(true);
-
-                // ToDo Add Game over scene with "Replay" Button?
+                GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>().gameOver();
                 break;
             case "Enemy":
                 Destroy(gameObject);

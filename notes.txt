@@ -35,9 +35,12 @@ Ideas:
 
 ToDos:
 
+Zuerst ausprobieren ob ich das mit dem dunkleren Licht und Lichtquellen überhaupt hinkriege! Abhängig davon brauche ich nämlich ggf. andere Assets!!!
+
 Core mechanics, that are most necessary for working / somewhat playable game
+- Lighting, reduce lighting intensity on every new level; experiment with different light sources etc.
+	- depending on if i can make that "light" theme work, i might need different graphical assets!
 - Gameover replay? Scene
-- Lighting, reduce lighting intensity on every new level
 - Basic music / SFX (credits!)
 - Find suitable assets for everything (don't forget to write down credits if necessary!)
 - movement of enemies / different types/colors; stupid with set movement; smart, will move towards player
