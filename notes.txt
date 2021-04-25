@@ -35,14 +35,9 @@ Ideas:
 
 ToDos:
 
-Zuerst ausprobieren ob ich das mit dem dunkleren Licht und Lichtquellen überhaupt hinkriege! Abhängig davon brauche ich nämlich ggf. andere Assets!!!
-
 Core mechanics, that are most necessary for working / somewhat playable game
-- Lighting, reduce lighting intensity on every new level; experiment with different light sources etc.
-	- depending on if i can make that "light" theme work, i might need different graphical assets!
-- Gameover replay? Scene
-- Basic music / SFX (credits!)
 - Find suitable assets for everything (don't forget to write down credits if necessary!)
+- Basic music / SFX (credits!)
 - movement of enemies / different types/colors; stupid with set movement; smart, will move towards player
 - Make 10 different levels, mini boss at 5, big boss at level 10
 
@@ -53,7 +48,10 @@ Would be very good to have:
 - Simple animations for player / enemies
 - Hit marker for projectiles
 - Health/item pickups/powerups
+- Lighting, reduce lighting intensity on every new level; experiment with different light sources etc. -> https://www.youtube.com/watch?v=nkgGyO9VG54
+	- depending on if i can make that "light" theme work, i might need different graphical assets!
 - Reduce bouncing on collision (might just depend on the used colliders / shapes?)
+- Try nicer font from Kenneys Pack for Texts, because Arial looks pretty garbage, or use C:\Users\seba1\Downloads\Assets\Kenney Game Assets (version 41)\2D assets\Tappy Plane\PNG\Letters
 
 Nice to have for later:
 - Enemy ideas:
@@ -64,4 +62,47 @@ Nice to have for later:
 - Health bar shown as a candle/light that becomes dimmer and dimmer the less health you have
 
 
+=====
 
+Assets:
+
+C:\Users\seba1\Downloads\Assets\Kenney Game Assets (version 41)\2D assets\Game Icons
+	- could have useful icons for menu etc.
+	- lock icon could be used to show that exitTrigger isn't unlocked yet, need to get key/kill all enemies first etc.
+C:\Users\seba1\Downloads\Assets\Kenney Game Assets (version 41)\2D assets\Generic Items
+C:\Users\seba1\Downloads\Assets\Kenney Game Assets (version 41)\2D assets\Jumper Pack
+	- enemies could be useful!
+	- or use rabbit as the player, that goes/digs down a hole (the next level entry)
+C:\Users\seba1\Downloads\Assets\Kenney Game Assets (version 41)\2D assets\Physics Assets
+	- for environment?
+C:\Users\seba1\Downloads\Assets\Kenney Game Assets (version 41)\2D assets\Platformer Assets Base
+C:\Users\seba1\Downloads\Assets\Kenney Game Assets (version 41)\2D assets\Platformer Assets Extra Animations & Enemies
+	- environment/items
+	- enemies
+	- player? would have to be underwater... which would fit the theme... :P
+C:\Users\seba1\Downloads\Assets\Kenney Game Assets (version 41)\2D assets\Platformer Assets Pixel
+	- pixelated version, might be easier to edit for me; but then everything needs to be in that style/look
+C:\Users\seba1\Downloads\Assets\Kenney Game Assets (version 41)\2D assets\Platformer Assets Mushroom
+	- Mushrooms for environment decoration
+C:\Users\seba1\Downloads\Assets\Kenney Game Assets (version 41)\2D assets\Platformer Assets Requests
+C:\Users\seba1\Downloads\Assets\Kenney Game Assets (version 41)\2D assets\Platformer Assets Tile Extensions
+	- weapons
+	- environment/mines
+C:\Users\seba1\Downloads\Assets\Kenney Game Assets (version 41)\2D assets\Platformer Bricks
+	- for edges? pseudo 3d? need to decide on consistent perspective, so prob not this one
+C:\Users\seba1\Downloads\Assets\Kenney Game Assets (version 41)\2D assets\Platformer Pack Redux
+C:\Users\seba1\Downloads\Assets\Kenney Game Assets (version 41)\2D assets\Road Textures
+C:\Users\seba1\Downloads\Assets\Kenney Game Assets (version 41)\2D assets\Racing Pack\PNG\Tiles
+	- water & lava!
+	- floors
+	- actually top down
+C:\Users\seba1\Downloads\Assets\Kenney Game Assets (version 41)\2D assets\RPG Tiles Vector
+	- environment
+	
+	
+GOOD!
+
+C:\Users\seba1\Downloads\Assets\Kenney Game Assets (version 41)\2D assets\Roguelike Base Pack
+	- GOOD! lots of great environment stuff! pixelated, smaller look though
+	- ALL of the Roguelike ones are great, use it!
+C:\Users\seba1\Downloads\Assets\Kenney Game Assets (version 41)\2D assets\Smoke Particles
