@@ -36,16 +36,16 @@ Ideas:
 ToDos:
 
 Core mechanics, that are most necessary for working / somewhat playable game
-- Find suitable assets for everything (don't forget to write down credits if necessary!)
 - Basic music / SFX (credits!)
-- movement of enemies / different types/colors; stupid with set movement; smart, will move towards player
-- Make 10 different levels, mini boss at 5, big boss at level 10
+- movement of enemies / different types/colors; stupid with set movement pattern; smart, will move towards player
+- improve/add player / enemy models, weapons, armor etc.; more enemies
 
 Would be very good to have:
 - only activate/open goal on trigger? button or when all enemies dead?
 - Camera that follows player smoothly
 - invincibility frame after player takes dmg (+ blinking/flashing animation)
 - Simple animations for player / enemies -> https://www.youtube.com/watch?v=txtNjkSqOyw
+- Make up to 5 (10?) levels
 - Hit marker for projectiles
 - Health/item pickups/powerups
 - Lighting, reduce lighting intensity on every new level; experiment with different light sources etc. -> https://www.youtube.com/watch?v=nkgGyO9VG54
